@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:text="Revenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+        <com.kg.android.Classes.GaugeView
+            android:id="@+id/gauge_view1"
+
+            android:layout_width="match_parent"
+            android:layout_height="150dip"
+            android:background="#ffffff"
+            gauge:showOuterShadow="false"
+            gauge:showOuterRim="false"
+            gauge:showInnerRim="false"
+            gauge:needleWidth="0.010"
+            gauge:needleHeight="0.40"
+            gauge:scaleStartValue="0"
+            gauge:scaleEndValue="100"
+            />
+        <TextView
+            android:text="Revenue::"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_revenue" />
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="26dp"
+            android:max="100"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:text="Gross Profit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+        <com.kg.android.Classes.GaugeView
+            android:id="@+id/gauge_view2"
+
+            android:layout_width="match_parent"
+            android:layout_height="150dip"
+            android:background="#ffffff"
+            gauge:showOuterShadow="false"
+            gauge:showOuterRim="false"
+            gauge:showInnerRim="false"
+            gauge:needleWidth="0.010"
+            gauge:needleHeight="0.40"
+            gauge:scaleStartValue="0"
+            gauge:scaleEndValue="100"
+            />
+        <TextView
+            android:text="Revenue::"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_revenue2" />
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="26dp"
+            android:max="100"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:text="Gross Profilt and other Income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+        <com.kg.android.Classes.GaugeView
+            android:id="@+id/gauge_view3"
+
+            android:layout_width="match_parent"
+            android:layout_height="150dip"
+            android:background="#ffffff"
+            gauge:showOuterShadow="false"
+            gauge:showOuterRim="false"
+            gauge:showInnerRim="false"
+            gauge:needleWidth="0.010"
+            gauge:needleHeight="0.40"
+            gauge:scaleStartValue="0"
+            gauge:scaleEndValue="100"
+            />
+        <TextView
+            android:text="Revenue::"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_revenue3" />
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="26dp"
+            android:max="100"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

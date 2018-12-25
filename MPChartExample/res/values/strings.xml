@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HFM Dashboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="title_section1">Revenue</string>
+    <string name="PLEASE_WAIT">Please wait..</string>
+    <string name="title_section2">Order intake &amp; margin</string>
+    <string name="title_section3">Project margin</string>
+    <string name="title_section4">Delivery margin</string>
+    <string name="title_section5">EBITA</string>
+    <string name="title_section6">Other KPI</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+
+</resources>
